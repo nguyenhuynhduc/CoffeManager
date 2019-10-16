@@ -1,0 +1,16 @@
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.frmLogin.resources
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.Properties.Resources.resources
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.csproj.GenerateResource.Cache
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.exe.licenses
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\bin\Debug\LeanDevExpress.exe
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\bin\Debug\LeanDevExpress.pdb
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.exe
+c:\users\duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.pdb
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.GUI.frmAllProducts.resources
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.GUI.frmHome.resources
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.GUI.frmOder.resources
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.GUI.frmStatic.resources
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.GUI.frmDetailBill.resources
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.csprojResolveAssemblyReference.cache
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\obj\x86\Debug\LeanDevExpress.GUI.frmProductStatic.resources
+C:\Users\Duc\documents\visual studio 2010\Projects\LeanDevExpress\LeanDevExpress\bin\Debug\LeanDevExpress.exe.config

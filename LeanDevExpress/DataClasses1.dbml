@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LeanDeveExpress" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=Duc\SQLEXPRESS;Initial Catalog=LeanDeveExpress;User ID=sa" SettingsObjectName="LeanDevExpress.Properties.Settings" SettingsPropertyName="LeanDeveExpressConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblBill" Member="tblBills">
+    <Type Name="tblBill">
+      <Column Name="idBill" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cost" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dateTime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblUser" Member="tblUsers">
+    <Type Name="tblUser">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDetailBill" Member="tblDetailBills">
+    <Type Name="tblDetailBill">
+      <Column Name="idDetailBill" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idBill" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idProduct" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="amount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblOder" Member="tblOders">
+    <Type Name="tblOder">
+      <Column Name="idOrder" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idProduct" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="amount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idTable" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblProduct" Member="tblProducts">
+    <Type Name="tblProduct">
+      <Column Name="idProduct" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nameProduct" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="amount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblTable" Member="tblTables">
+    <Type Name="tblTable">
+      <Column Name="idTable" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
